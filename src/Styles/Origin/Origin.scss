@@ -1,0 +1,32 @@
+.origin {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(230, 87, 87);
+  display: flex;
+  .castImg {
+    animation: slide 60s linear infinite;
+    width: 400px;
+    height: 500px;
+  }
+  .cla {
+    animation: cla 10s linear infinite;
+  }
+}
+/*
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+*/
+@keyframes cla {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-130px, 0, 0);
+  }
+}

@@ -1,16 +1,24 @@
-.nav {
+.mainNav {
   width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .socialMedia {
+  margin-top: 15px;
+  border-bottom: 2px solid rgb(250, 60, 60);
+  padding-bottom: 10px;
+  .changeTheme {
+    width: 150px;
+    height: 50px;
     background-color: rgb(18, 119, 114);
+  }
+  .searchBar {
     width: 350px;
     height: 50px;
+    background-color: rgb(18, 119, 114);
   }
-  .logDiv {
-    width: 350px;
+  .optionsTheme {
+    width: 150px;
     height: 50px;
     background-color: rgb(18, 119, 114);
   }
